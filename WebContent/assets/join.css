@@ -1,0 +1,133 @@
+body {
+	background-color: #DADADA;
+}
+
+body>.grid {
+	height: 100%;
+}
+
+.image {
+	margin-top: -100px;
+}
+
+.column {
+	max-width: 450px;
+}
+
+h2 {
+	color: #810000;
+}
+
+.backimg:after {
+	background-image: url('/pickabook/image/library.jpg');
+	background-color: rgba(76, 76, 76, 0.9);
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0.7 !important;
+	filter: alpha(opacity = 50);
+	z-index: -1;
+	content: "";
+}
+
+#agree {
+	padding-top: auto;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.logbox {
+	background-color: rgba(250, 250, 250, 1.0);
+	border-radius: 5px;
+	position: absolute;
+}
+
+.iconSet {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+
+.ui.teal.buttons .button, .ui.teal.button {
+	background-color: #B70A15; /* #00B5AD */
+	color: #FFFFFF;
+	text-shadow: none;
+	background-image: none;
+}
+
+.ui.teal.button {
+	-webkit-box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+	box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+
+.ui.teal.buttons .button:hover, .ui.teal.button:hover {
+	background-color: #B70A15; /* #009c95 */
+	color: #FFFFFF;
+	text-shadow: none;
+}
+
+.ui.teal.buttons .button:focus, .ui.teal.button:focus {
+	background-color: #B70A15; /* #008c86 */
+	color: #FFFFFF;
+	text-shadow: none;
+}
+
+.ui.teal.buttons .button:active, .ui.teal.button:active {
+	background-color: #B70A15; /* #00827c */
+	color: #FFFFFF;
+	text-shadow: none;
+}
+
+.ui.teal.buttons .active.button, .ui.teal.buttons .active.button:active,
+	.ui.teal.active.button, .ui.teal.button .active.button:active {
+	background-color: #B70A15; /* #009c95 */
+	color: #FFFFFF;
+	text-shadow: none;
+}
+
+/* Basic */
+.ui.basic.teal.buttons .button, .ui.basic.teal.button {
+	-webkit-box-shadow: 0px 0px 0px 1px #B70A15 inset !important;
+	/* #00B5AD */
+	box-shadow: 0px 0px 0px 1px #B70A15 inset !important; /* #00B5AD */
+	color: #B70A15 !important;
+}
+
+.ui.basic.teal.buttons .button:hover, .ui.basic.teal.button:hover {
+	background: transparent !important;
+	-webkit-box-shadow: 0px 0px 0px 1px #B70A15 inset !important;
+	/* #009c95 */
+	box-shadow: 0px 0px 0px 1px #B70A15 inset !important; /* #009c95 */
+	color: #009c95 !important;
+}
+
+.ui.basic.teal.buttons .button:focus, .ui.basic.teal.button:focus {
+	background: transparent !important;
+	-webkit-box-shadow: 0px 0px 0px 1px #B70A15 inset !important;
+	/* #008c86 */
+	box-shadow: 0px 0px 0px 1px #B70A15 inset !important; /* #008c86 */
+	color: #009c95 !important;
+}
+
+.ui.basic.teal.buttons .active.button, .ui.basic.teal.active.button {
+	background: transparent !important;
+	-webkit-box-shadow: 0px 0px 0px 1px #B70A15 inset !important;
+	/* #009c95 */
+	box-shadow: 0px 0px 0px 1px #B70A15 inset !important; /* #009c95 */
+	color: #00827c !important;
+}
+
+.ui.basic.teal.buttons .button:active, .ui.basic.teal.button:active {
+	-webkit-box-shadow: 0px 0px 0px 1px #B70A15 inset !important;
+	/* #00827c */
+	box-shadow: 0px 0px 0px 1px #B70A15 inset !important; /* #00827c */
+	color: #00827c !important;
+}
+
+.ui.buttons:not (.vertical ) >.basic.teal.button:not (:first-child ) {
+	margin-left: -1px;
+}

@@ -1,0 +1,290 @@
+a {
+	color: #353535;
+}
+
+a:hover {
+	color: #B70A15;
+}
+
+h5 {
+	color: #353535;
+}
+
+#book-form div.dropdown.selection.multiple {
+	 border-bottom: 1px solid rgba(34, 36, 38, 0.15); 
+	 border-top:none; 
+	 border-right:none; 
+	 border-left: none; 
+	 border-radius: 0;
+}
+
+/*search.jsp에 적용되는 css*/
+
+.white-border-btn{
+	background-color: white!important;
+}
+
+.div-border-style{
+	padding: 1em;
+	border: 1px solid #d4d4d5; 
+	background-color: #fff;
+}
+
+.search-book-title, .bookpage-book-title{
+	margin-bottom: 0!important;
+	height: 18px;
+	overflow: hidden;
+	font-family: "Noto Sans Light","Malgun Gothic",sans-serif!important;
+}
+
+.search-book-author, .bookpage-book-date {
+	
+	height: 17px!important;
+	overflow: hidden!important;
+	font-size: 13px!important;
+	font-family: "Noto Sans Light","Malgun Gothic",sans-serif!important;
+}
+
+.search-active{
+	color: #353535!important;
+	font-weight: bold;
+}
+.search-active i.check.icon{
+	color: #B70A15!important;
+}
+.search-sort{
+	color: #A6A6A6;
+	font-size: 13px;
+}
+
+.margin-bottom {
+	margin-bottom: 1.5em!important;
+}
+
+.margin-bottom-one {
+	margin-bottom: 1em!important;
+}
+
+.margin-top {
+	margin-top: 1.5em!important;
+}
+
+.margin-top-one {
+	margin-top: 1em!important;
+}
+
+.margin-all-one{
+	margin: 1em!important;
+}
+
+.padding-all-one{
+	padding: 1em!important;
+}
+
+.pickabook-main-color{
+	color: #B70A15!important;	
+}
+
+.pickabook-bgcolor{
+	background-color: #B70A15!important;	
+	color: #EAEAEA!important;
+}
+
+.search-tab-book{
+	 padding: 0 0 0 0;
+}
+.search-tab-post{
+	 padding-left: 0; padding-right:0;
+}
+
+/*post.jsp에 적용되는 css*/
+
+.gray-font{
+	color: #BDBDBD!important;
+}
+
+.mypage-profile{
+   padding:3px;
+   margin:2px;
+}
+
+.mypage-intro {
+   text-align: center!important;
+}
+
+.label{
+padding:3px;
+}
+
+/*자기소개 수정 textarea*/
+.mypage-intro-toggle1 .ui.form textarea{
+	resize: none; 
+	border-radius: 0; 
+	text-align: center;
+}
+
+
+/*포스트 작성 메뉴*/
+#post-menu {
+	margin-top: 0rem;
+}
+
+
+#edit-ta{
+	resize: none;	
+}
+
+
+/*포스트 작성 textarea*/
+#post-ta {
+	resize: none;
+	padding: 0 0 0 0;
+	border-width: 0 0 0 0;
+	border-radius: 0 0;
+}
+
+.post-write-style{
+	
+}
+
+/*포스트 전체 디자인*/
+.mypost-style{
+	border: 1px solid #d4d4d5; 
+	background: #fff; 
+	margin-bottom: 1em;
+}
+
+/*포스트 section*/
+.mypost-section1 {
+	padding: 1em 1em 0 1em;
+}
+
+.mypost-section2, .mypost-section3 {
+	 padding: 1em;
+}
+
+.mypost-section3{
+}
+
+.mypost-booksection{
+	overflow: auto;
+	line-height: 1.8;
+	margin-top: 1em;
+	padding: 1em; 
+	background: #F6F6F6;
+}
+
+/*덜중요한 글자들*/
+.smaller-font {
+	font-size: smaller; 
+	color: rgba(0,0,0,.6);
+}
+
+.mypost-profileimg{
+	width: 50px!important;
+	height: 50px!important;
+	overflow: hidden;
+}
+
+/*포스트 내용*/
+.post-content{
+	 text-align:justify; 
+	 line-height: 1.7;
+	 font-size: 14px;
+}
+
+.mypost-comment-list{
+	margin: 0.5em 0 0.5em 0;
+	line-height: 1.7;
+}
+
+
+/*postmore.jsp에 적용되는 css*/
+
+#post-more-modal,
+#post-more-modal .scrolling.content{/*이건browse.jsp에있음*/
+	height: 570px!important;	
+}
+
+#post-more-modal .scrolling.content .postmore, 
+#post-more-modal .scrolling.content .postmore .column{	/*이건browse.jsp에있음*/
+	min-height: 570px!important;	
+}
+
+.book-img-border{/*많은 페이지에 적용*/
+	 border: 1px solid #EAEAEA!important;
+}
+
+.postmore-booksection{	
+	overflow: auto;
+	line-height: 1.8;
+	padding: 1em 0 1em 0;
+}
+
+.postmore-section1{	
+	overflow: auto;
+	line-height: 1.8;
+	padding: 0.5em 1em 0.5em 1em;
+}
+.postmore-header{
+	font-size: 17px!important;
+}
+
+
+.postmore-content { 
+	text-align:justify; 
+	line-height: 2;
+	font-size: 15px;
+}
+
+/*책제목 제한*/
+.postmore-book-title{
+	height: 17px;
+	overflow: hidden;
+}
+ 
+/*댓글 작성자 */
+.comment-writer{
+	font-weight: bold;
+	margin-right: 0.5em;
+}
+
+
+/*bookInfo.jsp에 적ㄱ용*/
+.textareaD {
+   resize: none!important;
+}
+
+/*bookContent.jsp에서 WISH, ING, READ 부분*/
+button.btnAct {
+   background-color:#B70A15!important;
+   color:white!important;
+   margin-left:0.5em!important;
+   margin-right:0.5em!important;
+}
+
+button.ui.button.btnNo {
+   background-color: #F6F6F6; 
+   color: #B70A15; 
+   border: #B70A15; 
+   margin-left: 0.5em; 
+   margin-right:0.5em;
+}
+
+/*bookInfo.jsp에서 WISH, ING, READ 부분*/
+a.btnAct {
+   background-color:#B70A15!important;
+   color:white!important;
+   margin-right:0.5em!important;
+   font-weight: 600!important;
+   font-size: 1.2rem!important;
+}
+
+a.ui.button.btnNo {
+   background-color: white; 
+   color: #B70A15; 
+   border: #B70A15;
+   margin-right:0.5em;
+   font-weight: 600;
+   font-size: 1.2rem;
+}
